@@ -2,7 +2,7 @@
 # BookMyShow Ticket Booking System
 # -------------------------------
 
-# Taking booking details from the user
+# Task 1: Taking booking details from the user
 
 # Booking ID (integer)
 booking_id = int(input("Enter Booking ID: "))
@@ -17,7 +17,7 @@ movie_name = input("Enter Movie Name: ")
 ticket_price = float(input("Enter Ticket Price: "))
 
 # Selected seats (list) – split by comma
-seats = input("Enter Selected Seats (comma-separated): ").split(",")
+seats = input("Enter Selected Seats: ").split(",")
 
 # Show timings stored as a tuple (start time, end time)
 start_time = input("Enter Show Start Time: ")
@@ -28,7 +28,7 @@ show_timings = (start_time, end_time)
 discount = float(input("Enter Discount Percentage: "))
 
 # Theatre facilities stored as a set (unique values)
-facilities = set(input("Enter Theatre Facilities (comma-separated): ").split(","))
+facilities = set(input("Enter Theatre Facilities: ").split(","))
 
 # Theatre details (dictionary)
 theatre_name = input("Enter Theatre Name: ")
@@ -42,7 +42,7 @@ theatre_details = {
 }
 
 # -------------------------------
-# Displaying output using different formatting methods
+# Task 2: Displaying output using different formatting methods
 # -------------------------------
 
 # Using comma separation (sep=',')
