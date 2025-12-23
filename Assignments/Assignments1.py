@@ -3,6 +3,7 @@
 # -------------------------------
 
 # Task 1: Taking booking details from the user
+#--------------------------------
 
 # Booking ID (integer)
 booking_id = int(input("Enter Booking ID: "))
